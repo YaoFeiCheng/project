@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+   width: 100%;
+    height: 100%;
+}
+/*头部*/
+#header{
+    width: 1600px;
+    height: 150px;
+    background-color: pink;
+    margin: 0 auto;
+}
+#header_top{
+    width: 1600px;
+    height: 30px;
+    background-color: white;
+}
+#header_top span{
+    font-size: 15px;
+    font-family: 楷体;
+    height: 30px;
+    line-height: 30px;
+}
+#header_top span:nth-child(1){
+    margin-left: 300px;
+    font-weight: bold;
+}
+#header_top span:nth-child(2){
+    margin-left: 700px;
+}
+#header_search{
+    position: relative;
+    width: 1600px;
+    height: 85px;
+    background-color: rgb(29,122,217);
+}
+#header_search button{
+    border: none;
+    background-color: orange;
+    outline: none;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+#header_search button:nth-child(3){
+    margin-left: 50px;
+    margin-right: 1px;
+    width: 70px;
+}
+#header_search>img{
+    display: inline-block;
+    width: 110px;
+    height: 65px;
+    margin-left: 340px;
+    margin-top: 10px;
+}
+#header_search div{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    top: 30px;
+    left: 620px;
+    display: inline-block;
+}
+#header_search div input{
+    width: 400px;
+    height: 27px;
+}
+#header_search div img{
+   vertical-align: middle;
+}
+#header_menu{
+    width: 1600px;
+    height: 35px;
+    background-color: rgb(19,105,192);
+}
+#header_menu span{
+    height: 35px;
+    width: 100px;
+    line-height: 35px;
+    color: white;
+    margin-left: 350px;
+}
+#header_menu ul{
+    display: inline;
+    margin-left: 100px;
+}
+#header_menu ul li{
+    display: table-cell;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/*主体*/
+#main{
+    width: 1000px;
+    height: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+#leftMenu{
+    width: 170px;
+    height: 450px;
+    top: 20px;
+    border: 1px solid gray;
+    background-color: rgb(243,243,243);
+    position: absolute;
+}
+#leftMenu div{
+    width: 170px;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
+#leftMenu_title{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    font-weight: bold;
+}
+.leftMenu_data span{
+    display: inline-block;
+    width: 90px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: gray;
+}
+#bigAD{
+    width: 825px;
+    height: 330px;
+    position: absolute;
+    top: 20px;
+    left: 175px;
+}
+
+/*尾部*/
+#foot{
+    width: 1600px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(212,212,212);
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+#foot div{
+    width: 1600px;
+    height: 30px;
+    font-size: 14px;
+}
+#foot div:last-child{
+    margin-top: 20px;
+}
